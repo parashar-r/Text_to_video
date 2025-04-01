@@ -1,0 +1,5 @@
+streamlit
+gtts
+moviepy
+Pillow
+numpy

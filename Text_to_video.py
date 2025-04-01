@@ -125,7 +125,7 @@ for i in range(int(num_slides)):
     with col1:
         slide_type = st.selectbox("Slide Type", options=["title", "default", "image", "end"], key=f"slide_type_{i}")
         slide_text = st.text_area("Slide Text", key=f"slide_text_{i}", help="Enter the text to appear on the slide.")
-        voiceover_text = st.text_area("Voiceover Text (optional)", key=f"voiceover_text_{i]", help="Defaults to slide text if left blank.")
+        voiceover_text = st.text_area("Voiceover Text (optional)", key=f"voiceover_text_{i}", help="Defaults to slide text if left blank.")
         slide_duration = st.number_input("Slide Duration (seconds)", min_value=1.0, max_value=60.0, value=4.0, step=0.5, key=f"duration_{i}")
         fade_duration = st.number_input("Fade Duration (seconds)", min_value=0.0, max_value=5.0, value=1.0, step=0.1, key=f"fade_{i}")
         voice_lang = st.selectbox("Voiceover Language", options=["en", "es", "fr", "de"], index=0, key=f"voice_lang_{i}")

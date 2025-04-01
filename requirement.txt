@@ -1,5 +1,5 @@
-streamlit
+streamlit==1.44.0
 gtts
-moviepy
+moviepy==1.0.3
 Pillow
 numpy
